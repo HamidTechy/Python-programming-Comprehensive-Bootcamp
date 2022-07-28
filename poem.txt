@@ -1,0 +1,34 @@
+Twinkle star ohh ohh stop this what is this &^%$#@ &^%$#@ i said stop this &^%$#@
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little moon how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little moon how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little moon how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little moon how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+twinkle twinkle little star how i wounder what you are
+content = True
+i = 1
+with open('poem.text') as f:
+    while content:
+        content = f.readline()
+        if 'moon' in content.lower():
+            print(content)
+            print(f'yes moon is present in {i}')
+        i += 1
+

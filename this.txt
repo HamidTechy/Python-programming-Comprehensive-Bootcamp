@@ -1,0 +1,3 @@
+hello this is python code
+and i gonna make a copy of file
+using python code
